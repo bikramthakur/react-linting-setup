@@ -1,5 +1,5 @@
 {
-  "name": "dev",
+  "name": "project-linting-setup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -50,6 +50,6 @@
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint --cache --fix",
-    "*.{js,jsx,css,md}": "prettier --write"
+    "*.{js,css,md}": "prettier --write"
   }
 }
